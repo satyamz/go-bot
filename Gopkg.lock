@@ -2,34 +2,10 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/go-chat-bot/bot"
-  packages = [".","slack"]
-  revision = "b4a369ff3871115fd2c84ff003a23355819b50cf"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/go-chat-bot/plugins"
-  packages = ["catgif"]
-  revision = "5940ea443416584b78b8a1e4aa66d912b547c25b"
-
-[[projects]]
-  name = "github.com/mattn/go-shellwords"
-  packages = ["."]
-  revision = "02e3cf038dcea8290e44424da473dd12be796a8a"
-  version = "v1.0.3"
-
-[[projects]]
   name = "github.com/nlopes/slack"
   packages = ["."]
   revision = "c86337c0ef2486a15edd804355d9c73d2f2caed1"
   version = "v0.1.0"
-
-[[projects]]
-  name = "github.com/robfig/cron"
-  packages = ["."]
-  revision = "b024fc5ea0e34bc3f83d9941c8d60b0622bfaca4"
-  version = "v1"
 
 [[projects]]
   branch = "master"
@@ -40,6 +16,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f84ad2b8536cc2df1029b61fec821ffdd83d53b16502d71b30dfc8ec46103b16"
+  inputs-digest = "af8acd38f8de2bfa3a6f3f342a5899359d1b4c589e175b933f2d8f9c3852b59f"
   solver-name = "gps-cdcl"
   solver-version = 1
